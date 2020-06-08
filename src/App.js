@@ -2,7 +2,7 @@ import React from 'react'
 
 class App extends React.Component {
   componentDidMount() {
-      fetch('the server URL', {
+      fetch('http://api.open-notify.org/astros.json', {
     method: "POST",
     headers: {
       'Content-Type: application/json'
